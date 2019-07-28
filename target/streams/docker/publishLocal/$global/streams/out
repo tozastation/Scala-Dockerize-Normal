@@ -1,0 +1,145 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t scala-try-dockerilze-normal:0.1 .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/tozastation/go/src/github.com/tozastation/Scala-Try-Dockerilze-Normal/target/docker/stage[0m
+[0m[[0m[0minfo[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[0minfo[0m] [0m[0m#2       digest: sha256:716eeda86d1208ffb572a52423b67d056a71b16bd1be172d5f97574e8e297a53[0m
+[0m[[0m[0minfo[0m] [0m[0m#2         name: "[internal] load .dockerignore"[0m
+[0m[[0m[0minfo[0m] [0m[0m#2      started: 2019-07-26 06:00:39.3967989 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#2    completed: 2019-07-26 06:00:39.4618153 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#2     duration: 65.0164ms[0m
+[0m[[0m[0minfo[0m] [0m[0m#2 transferring context: 2B 0.0s done[0m
+[0m[[0m[0minfo[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[0minfo[0m] [0m[0m#1       digest: sha256:738ed5fbd7409384e2d07f135a764a1d4f17a252f16d4f3befb04bdb40a869f4[0m
+[0m[[0m[0minfo[0m] [0m[0m#1         name: "[internal] load build definition from Dockerfile"[0m
+[0m[[0m[0minfo[0m] [0m[0m#1      started: 2019-07-26 06:00:39.3828115 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#1    completed: 2019-07-26 06:00:39.3839133 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#1     duration: 1.1018ms[0m
+[0m[[0m[0minfo[0m] [0m[0m#1      started: 2019-07-26 06:00:39.3935295 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#1    completed: 2019-07-26 06:00:39.4745727 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#1     duration: 81.0432ms[0m
+[0m[[0m[0minfo[0m] [0m[0m#1 transferring dockerfile: 741B 0.0s done[0m
+[0m[[0m[0minfo[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:8[0m
+[0m[[0m[0minfo[0m] [0m[0m#3       digest: sha256:c1006613b124ab347fbb29ae49e2ab62add271baf34bdfe7a7a4c383ac159b76[0m
+[0m[[0m[0minfo[0m] [0m[0m#3         name: "[internal] load metadata for docker.io/library/openjdk:8"[0m
+[0m[[0m[0minfo[0m] [0m[0m#3      started: 2019-07-26 06:00:39.5455693 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#3    completed: 2019-07-26 06:00:44.0017586 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#3     duration: 4.4561893s[0m
+[0m[[0m[0minfo[0m] [0m[0m#3      started: 2019-07-26 06:00:39.5442049 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#3    completed: 2019-07-26 06:00:44.0024895 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#3     duration: 4.4582846s[0m
+[0m[[0m[0minfo[0m] [0m[0m#4 [internal] helper image for file operations[0m
+[0m[[0m[0minfo[0m] [0m[0m#4       digest: sha256:e4c43493b1bb2320466c52248e886014710025b273f224bb96a23b8fb7a1d193[0m
+[0m[[0m[0minfo[0m] [0m[0m#4         name: "[internal] helper image for file operations"[0m
+[0m[[0m[0minfo[0m] [0m[0m#4      started: 2019-07-26 06:00:44.0056246 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#4    completed: 2019-07-26 06:00:44.0116267 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#4     duration: 6.0021ms[0m
+[0m[[0m[0minfo[0m] [0m[0m#4      started: 2019-07-26 06:00:44.0173828 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#4    completed: 2019-07-26 06:00:44.01758 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#4     duration: 197.2µs[0m
+[0m[[0m[0minfo[0m] [0m[0m#4       cached: true[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 [stage0 1/4] FROM docker.io/library/openjdk:8@sha256:33f68c6230af30dd104...[0m
+[0m[[0m[0minfo[0m] [0m[0m#5       digest: sha256:c5f1a79fc8b235f03a0e740218ae947d5946518aa6712dec178963f13b6d8e04[0m
+[0m[[0m[0minfo[0m] [0m[0m#5         name: "[stage0 1/4] FROM docker.io/library/openjdk:8@sha256:33f68c6230af30dd104c838f54295a6765b5609c81719be9cf5b24b1e950b899"[0m
+[0m[[0m[0minfo[0m] [0m[0m#5      started: 2019-07-26 06:00:44.0087083 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#5    completed: 2019-07-26 06:00:44.0093192 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#5     duration: 610.9µs[0m
+[0m[[0m[0minfo[0m] [0m[0m#5      started: 2019-07-26 06:00:44.0097949 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#5    completed: 2019-07-26 06:00:44.0187561 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#5     duration: 8.9612ms[0m
+[0m[[0m[0minfo[0m] [0m[0m#5      started: 2019-07-26 06:00:44.0194946 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 resolve docker.io/library/openjdk:8@sha256:33f68c6230af30dd104c838f54295a6765b5609c81719be9cf5b24b1e950b899 done[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:33f68c6230af30dd104c838f54295a6765b5609c81719be9cf5b24b1e950b899 1.06kB / 1.06kB done[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:312e104c404dad2e9dca98d4f949b224611f7f1a1de983314273a4a03fda13bd 1.79kB / 1.79kB done[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:27da2af61908e72e15f2e99f4b18d88996fbad927ede2d16de91b21b3c53010e 8.86kB / 8.86kB done[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:5e86b04a450057b7425bfc849fbfb54b10afc762b24e1af1f81f654b6c30f29a 0B / 4.93MB 0.2s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 0B / 104.20MB 0.2s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:1a6643a2873a6456a6af724e45e9d5dd810ab16655bfb95e3bbd11d12e4ea93e 0B / 219B 0.2s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:5e86b04a450057b7425bfc849fbfb54b10afc762b24e1af1f81f654b6c30f29a 1.11MB / 4.93MB 2.0s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:5e86b04a450057b7425bfc849fbfb54b10afc762b24e1af1f81f654b6c30f29a 1.77MB / 4.93MB 2.1s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:5e86b04a450057b7425bfc849fbfb54b10afc762b24e1af1f81f654b6c30f29a 3.31MB / 4.93MB 2.3s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:5e86b04a450057b7425bfc849fbfb54b10afc762b24e1af1f81f654b6c30f29a 4.07MB / 4.93MB 2.4s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:1a6643a2873a6456a6af724e45e9d5dd810ab16655bfb95e3bbd11d12e4ea93e 219B / 219B 2.4s done[0m
+[0m[[0m[0minfo[0m] [0m[0m#7 ...[0m
+[0m[[0m[0minfo[0m] [0m[0m#7 [internal] load build context[0m
+[0m[[0m[0minfo[0m] [0m[0m#7       digest: sha256:29aa00432ea827bf8d03f4062e7a96bc0898da77a3096699310cf7318512653a[0m
+[0m[[0m[0minfo[0m] [0m[0m#7         name: "[internal] load build context"[0m
+[0m[[0m[0minfo[0m] [0m[0m#7      started: 2019-07-26 06:00:44.0042704 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#7    completed: 2019-07-26 06:00:44.0043513 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#7     duration: 80.9µs[0m
+[0m[[0m[0minfo[0m] [0m[0m#7      started: 2019-07-26 06:00:44.0211909 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#7    completed: 2019-07-26 06:00:46.5746018 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#7     duration: 2.5534109s[0m
+[0m[[0m[0minfo[0m] [0m[0m#7 transferring context: 22.43MB 2.4s done[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 [stage0 1/4] FROM docker.io/library/openjdk:8@sha256:33f68c6230af30dd104...[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:5e86b04a450057b7425bfc849fbfb54b10afc762b24e1af1f81f654b6c30f29a 4.93MB / 4.93MB 2.5s done[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 extracting sha256:5e86b04a450057b7425bfc849fbfb54b10afc762b24e1af1f81f654b6c30f29a[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 6.36MB / 104.20MB 3.0s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 11.82MB / 104.20MB 3.4s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 17.37MB / 104.20MB 3.8s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 extracting sha256:5e86b04a450057b7425bfc849fbfb54b10afc762b24e1af1f81f654b6c30f29a 1.3s done[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 extracting sha256:1a6643a2873a6456a6af724e45e9d5dd810ab16655bfb95e3bbd11d12e4ea93e[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 extracting sha256:1a6643a2873a6456a6af724e45e9d5dd810ab16655bfb95e3bbd11d12e4ea93e done[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 23.62MB / 104.20MB 4.2s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 30.55MB / 104.20MB 4.6s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 36.29MB / 104.20MB 5.0s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 42.71MB / 104.20MB 5.4s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 49.41MB / 104.20MB 5.8s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 54.95MB / 104.20MB 6.2s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 60.39MB / 104.20MB 6.5s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 66.93MB / 104.20MB 6.9s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 73.40MB / 104.20MB 7.3s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 80.21MB / 104.20MB 7.7s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 86.56MB / 104.20MB 8.1s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 92.76MB / 104.20MB 8.5s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 98.90MB / 104.20MB 8.9s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 104.20MB / 104.20MB 9.3s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 104.20MB / 104.20MB 9.7s done[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 extracting sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 extracting sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 5.0s[0m
+[0m[[0m[0minfo[0m] [0m[0m#5 extracting sha256:2ad1e30fc17cd44a7786de9acd08bc8281f8e1597d38bc513330e9a2a7498969 7.2s done[0m
+[0m[[0m[0minfo[0m] [0m[0m#5    completed: 2019-07-26 06:01:01.6520053 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#5     duration: 17.6325107s[0m
+[0m[[0m[0minfo[0m] [0m[0m#6 [stage-1 2/3] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent grou...[0m
+[0m[[0m[0minfo[0m] [0m[0m#6       digest: sha256:556115dc3c7f9a4bbaa019f216ee7e912d21eef0181ff503d142c8ed89e19c3e[0m
+[0m[[0m[0minfo[0m] [0m[0m#6         name: "[stage-1 2/3] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))"[0m
+[0m[[0m[0minfo[0m] [0m[0m#6      started: 2019-07-26 06:01:01.6592991 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#8 ...[0m
+[0m[[0m[0minfo[0m] [0m[0m#8 [stage0 2/4] COPY opt /opt[0m
+[0m[[0m[0minfo[0m] [0m[0m#8       digest: sha256:92d213251c2c1fd587b31b798753d7616f98fa67d428757a721c98a34913314a[0m
+[0m[[0m[0minfo[0m] [0m[0m#8         name: "[stage0 2/4] COPY opt /opt"[0m
+[0m[[0m[0minfo[0m] [0m[0m#8      started: 2019-07-26 06:01:01.6592381 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#8    completed: 2019-07-26 06:01:02.8882311 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#8     duration: 1.228993s[0m
+[0m[[0m[0minfo[0m] [0m[0m#9 [stage0 3/4] RUN ["chmod", "-R", "u=rX,g=rX", "/opt/docker"][0m
+[0m[[0m[0minfo[0m] [0m[0m#9       digest: sha256:7d2f00c238e09fed161de5dd2e25d4b7202a9d122246e0765639ed18d5bf94f7[0m
+[0m[[0m[0minfo[0m] [0m[0m#9         name: "[stage0 3/4] RUN [\"chmod\", \"-R\", \"u=rX,g=rX\", \"/opt/docker\"]"[0m
+[0m[[0m[0minfo[0m] [0m[0m#9      started: 2019-07-26 06:01:02.9153433 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#6 ...[0m
+[0m[[0m[0minfo[0m] [0m[0m#6 [stage-1 2/3] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent grou...[0m
+[0m[[0m[0minfo[0m] [0m[0m#6    completed: 2019-07-26 06:01:03.5052874 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#6     duration: 1.8459883s[0m
+[0m[[0m[0minfo[0m] [0m[0m#9 [stage0 3/4] RUN ["chmod", "-R", "u=rX,g=rX", "/opt/docker"][0m
+[0m[[0m[0minfo[0m] [0m[0m#9    completed: 2019-07-26 06:01:04.4006851 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#9     duration: 1.4853418s[0m
+[0m[[0m[0minfo[0m] [0m[0m#10 [stage0 4/4] RUN ["chmod", "u+x,g+x", "/opt/docker/bin/scala-try-dockeri...[0m
+[0m[[0m[0minfo[0m] [0m[0m#10       digest: sha256:fa02e7636a838a7e2207c8c596c5656f0ef35877dc505f81902953165ef226de[0m
+[0m[[0m[0minfo[0m] [0m[0m#10         name: "[stage0 4/4] RUN [\"chmod\", \"u+x,g+x\", \"/opt/docker/bin/scala-try-dockerilze-normal\"]"[0m
+[0m[[0m[0minfo[0m] [0m[0m#10      started: 2019-07-26 06:01:04.4121057 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#10    completed: 2019-07-26 06:01:05.5748755 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#10     duration: 1.1627698s[0m
+[0m[[0m[0minfo[0m] [0m[0m#11 [stage-1 3/3] COPY --from=stage0 --chown=demiourgos728:root /opt/docker ...[0m
+[0m[[0m[0minfo[0m] [0m[0m#11       digest: sha256:5094480d2c5ea0f26baa9c087674ef7843a3d3c9ea6b20b8be61faab3eef5578[0m
+[0m[[0m[0minfo[0m] [0m[0m#11         name: "[stage-1 3/3] COPY --from=stage0 --chown=demiourgos728:root /opt/docker /opt/docker"[0m
+[0m[[0m[0minfo[0m] [0m[0m#11      started: 2019-07-26 06:01:05.9063711 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#11    completed: 2019-07-26 06:01:07.0956236 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#11     duration: 1.1892525s[0m
+[0m[[0m[0minfo[0m] [0m[0m#12 exporting to image[0m
+[0m[[0m[0minfo[0m] [0m[0m#12       digest: sha256:97055e1e2c3f3ac467236c191a0c44f2197481bd7ba02d22033971ffb7b03716[0m
+[0m[[0m[0minfo[0m] [0m[0m#12         name: "exporting to image"[0m
+[0m[[0m[0minfo[0m] [0m[0m#12      started: 2019-07-26 06:01:07.1079514 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#12 exporting layers[0m
+[0m[[0m[0minfo[0m] [0m[0m#12 exporting layers 0.4s done[0m
+[0m[[0m[0minfo[0m] [0m[0m#12    completed: 2019-07-26 06:01:07.5149832 +0000 UTC[0m
+[0m[[0m[0minfo[0m] [0m[0m#12     duration: 407.0318ms[0m
+[0m[[0m[0minfo[0m] [0m[0m#12 writing image sha256:99c5151021dab80fa82c8d0ecccdb9f96a1c7c20b94d14682e625bd271be0d44 done[0m
+[0m[[0m[0minfo[0m] [0m[0m#12 naming to docker.io/library/scala-try-dockerilze-normal:0.1 done[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image scala-try-dockerilze-normal with tags [0.1][0m

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="Scala-Try-Dockerilze-Normal,scala-try-dockerilze-normal" />
+  </component>
+</project>
